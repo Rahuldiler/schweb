@@ -1,0 +1,158 @@
+p {
+    margin: 0 0 10px;
+}
+.meganv-svg-icon {
+        width: 80px;
+        height: 80px;
+    }
+.cutom-c{
+    padding: 0 12px;
+    margin-left: 10px;
+}
+.cutom-c .meganv-logo-wrapper {
+    display: block !important;
+}
+.col-10.centered.col-m-full.col-s-full {
+    max-width: 1024px;
+}
+/* @media screen and (min-width: 1024px) {
+    .app-container {
+        margin-left: 125px !important;
+    }
+} */
+            h1 {
+                font-size: 36px;
+    font-family: Charles Modern Light, sans-serif;
+    line-height: 44px;
+    font-weight: 300;
+    letter-spacing: 0;
+    /* height: 44px; */
+    /* width: 872px; */
+
+            }
+            .subtitle {
+                font-family: Arial Regular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .1px;
+            }
+            .step {
+                display: flex;
+                align-items: center;
+            }
+            .step-icon {
+                width: 32px;
+    height: 32px;
+    margin-bottom: 16px;
+                margin-right: 15px;
+            }
+            .step-content h2 {
+                margin-top: 0;
+    font-size: 19px;
+    height: 26px;
+    width: 405px;
+    letter-spacing: .1px;
+    line-height: 28px;
+    margin-bottom: 0px;
+            }
+            .step-content p {
+                margin: 5px 0 0;
+                font-size: small;
+            }
+            .footer-c {
+                /* display: flex;
+                justify-content: end;
+                align-items: center; */
+                margin-top: 20px;
+                padding-top: 41px;
+    padding-bottom: 32px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+            }
+            .illustration {
+                width: 200px;
+                height: 150px;
+                background-color: #e0e0e0;
+            }
+            .start-button {
+                border: none;
+                padding: 10px 20px;
+                color: #fff;
+                font-family: Charles Modern, Arial, sans-serif;
+                font-size: 19px;
+                letter-spacing: .1px;
+                line-height: 24px !important;
+                text-align: center;
+                height: 48px;
+                border-radius: 6px;
+                background-color: #2d862d;
+                text-decoration: none;
+            }
+            .start-button:hover {
+                background-color: #2d862d;
+                color: #fff;
+            }
+            .log-step-row {
+                display: flex;
+                margin-bottom: 40px;
+            }
+            .steps{
+                width: 50%;
+            }
+            .steps-welcome{
+                width: 50%;
+            }
+            .sdps-image-icon{
+    height: 280px;
+    width: 280px;
+}
+.btn-width-100{
+    text-align: end;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.disclaimers-section {
+    margin: 0;
+}
+.disclaimers-section .disclaimers-margin {
+    padding: 0;
+}
+.disclaimers-section .disclaimers-line-margin {
+    margin-bottom: 5px;
+}
+.disclaimers-section .sdps-text-legal {
+    font-size: 13px;
+    line-height: 20px;
+}
+.disclaimers-section .sdps-text-legal a{
+    text-decoration: none;
+    color: #006e99;
+    font-size: 15px;
+}
+.disclaimers-section .sdps-text-legal a:hover{
+    text-decoration: underline;
+}
+.disclaimers-section .sdps-text-legal {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+}
+.sdps-text-footnote {
+    color: #5a6772;
+    -webkit-font-smoothing: subpixel-antialiased;
+    letter-spacing: .01875rem;
+}
+.disp-c{
+    margin-top: 0;
+    padding: 16px 12px 0;
+}
+@media (max-width: 1024px){
+    .steps-welcome{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .start-button{
+        width: 100%;
+    }
+}

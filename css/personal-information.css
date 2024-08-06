@@ -1,0 +1,369 @@
+a,
+        a:link,
+        a:visited {
+            text-decoration: none;
+            color: #006e99;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        .meganv-svg-icon {
+            width: 80px;
+            height: 80px;
+        }
+
+        .cutom-c {
+            padding: 0 12px;
+            margin-left: 10px;
+        }
+
+        .cutom-c .meganv-logo-wrapper {
+            display: block !important;
+        }
+
+        .col-10.centered.col-m-full.col-s-full {
+            max-width: 1024px;
+        }
+
+        /* @media screen and (min-width: 1024px) {
+    .app-container {
+        margin-left: 125px !important;
+    }
+} */
+        h1 {
+            font-size: 36px;
+            font-family: CharlesModern-Light,Helvetica,Arial,sans-serif;
+            line-height: 44px;
+            font-weight: 400;
+            letter-spacing: 0;
+            margin: 40px 0 20px;
+
+        }
+
+        .subtitle {
+            font-family: Arial Regular, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: .1px;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+        }
+
+        .step-icon {
+            width: 32px;
+            height: 32px;
+            margin-bottom: 16px;
+            margin-right: 15px;
+        }
+
+        .step-content h2 {
+            margin-top: 0;
+            font-size: 19px;
+            height: 26px;
+            width: 405px;
+            letter-spacing: .1px;
+            line-height: 28px;
+            margin-bottom: 0px;
+        }
+
+        .step-content p {
+            margin: 5px 0 0;
+            font-size: small;
+        }
+
+        .footer-c {
+            /* display: flex;
+                justify-content: end;
+                align-items: center; */
+            margin-top: 20px;
+            padding-top: 41px;
+            padding-bottom: 32px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .illustration {
+            width: 200px;
+            height: 150px;
+            background-color: #e0e0e0;
+        }
+
+        .start-button {
+            border: none;
+            padding: 10px 20px;
+            color: #fff;
+            font-family: Charles Modern, Arial, sans-serif;
+            font-size: 19px;
+            letter-spacing: .1px;
+            line-height: 24px !important;
+            text-align: center;
+            height: 48px;
+            border-radius: 6px;
+            background-color: #2d862d;
+        }
+
+        .start-button:hover {
+            background-color: #2d862d;
+        }
+
+        .log-step-row {
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        .steps {
+            width: 50%;
+        }
+
+        .steps-welcome {
+            width: 50%;
+        }
+
+        .sdps-image-icon {
+            height: 280px;
+            width: 280px;
+        }
+
+        .btn-width-100 {
+            text-align: end;
+            width: 100%;
+            padding-bottom: 40px;
+        }
+
+        .disclaimers-section {
+            margin: 0;
+        }
+
+        .disclaimers-section .disclaimers-margin {
+            padding: 0;
+        }
+
+        .disclaimers-section .disclaimers-line-margin {
+            margin-bottom: 5px;
+        }
+
+        .disclaimers-section .sdps-text-legal {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        .disclaimers-section .sdps-text-legal a {
+            text-decoration: none;
+            color: #006e99;
+            font-size: 15px;
+        }
+
+        .disclaimers-section .sdps-text-legal a:hover {
+            text-decoration: underline;
+        }
+
+        .disclaimers-section .sdps-text-legal {
+            font-size: 13px;
+            line-height: 20px;
+            margin: 0;
+        }
+
+        .sdps-text-footnote {
+            color: #5a6772;
+            -webkit-font-smoothing: subpixel-antialiased;
+            letter-spacing: .01875rem;
+        }
+
+        .disp-c {
+            margin-top: 0;
+            padding: 16px 12px 0;
+        }
+
+        @media (max-width: 1024px) {
+            .steps-welcome {
+                display: none;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .start-button {
+                width: 100%;
+            }
+        }
+
+        /* @media (max-width: calc(1279px)) {
+    .app-container {
+        margin: 0 8px;
+    }
+} */
+        form.lgin-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form.lgin-form label {
+            margin-top: 18px;
+            color: #000;
+            display: inline-block;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            margin-bottom: .25rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form.lgin-form label>span {
+            color: #5a6772;
+            padding-left: .25rem;
+        }
+
+        form.lgin-form input {
+            height: 50px;
+            border-radius: 4px !important;
+            display: unset;
+            padding-right: 3.5rem;
+            border: .0625rem solid #4f5a64;
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            width: 100%;
+            min-width: 0;
+            padding: 0 1rem;
+        }
+
+        .inp-g {
+            position: relative;
+        }
+
+        .icon-lgn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .icon-lgn {
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            background: #fff;
+            color: #5a6772;
+        }
+
+        .info_presenter__fyl {
+            margin: 20px 0 2px;
+        }
+
+        .security-note {
+            display: flex;
+            margin-top: 25px;
+            font-size: 16px;
+        }
+
+        span.security-icon {
+            display: block;
+        }
+
+        span.security-icon img {
+            width: auto;
+            height: 60px;
+            object-fit: contain;
+        }
+
+        .cancel-button {
+            color: #0066cf;
+            height: 48px;
+            display: unset;
+            cursor: pointer;
+            vertical-align: unset;
+            border: none;
+            line-height: 1px !important;
+            background: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            min-width: auto;
+            border-radius: .375rem;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            white-space: nowrap;
+            margin-right: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 1024px) {
+            .steps {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .cancel-button {
+                width: 100%;
+                margin-right: 0;
+                margin-top: 10px;
+            }
+
+            .btn-width-100.reverse {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+        .prograsser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px auto 0;
+}
+
+.prograss {
+  flex: 1;
+  font-size: 16px;
+  text-align: center;
+  padding: 1px 10px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+.prograss.active{
+    background-color: #5a6772;
+    color: #fff;
+}
+.prograss:after, .prograss:before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+    top: 0;
+}
+
+
+.prograss:not(:last-child)::after {
+    border: .8125rem solid transparent;
+    border-left-color: #f0f0f0;
+    right: -1.625rem;
+    z-index: 2;
+    transition: border-left-color .1s linear;
+}
+.prograss.active:after {
+    border-left-color: #5a6772;
+}
+
+.prograss:not(:first-child)::before {
+    border: 1.0625rem solid transparent;
+    border-left-color: #fff;
+    top: -.25rem;
+    left: 0;
+    z-index: 1;
+}
+.sdps-label {
+    padding: 10px 0 0px;
+    font-weight: 600;
+    font-size: large;
+    color: #333;
+    font-family: Arial, Helvetica, Charles Modern Light, sans-serif;
+}
+span.info-icn-acc {
+    padding: 0 0 !important;
+}
